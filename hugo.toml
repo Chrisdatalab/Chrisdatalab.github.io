@@ -1,0 +1,35 @@
+baseURL = "https://secoryx.com/"
+languageCode = "en-us"
+title = "SECORYX"
+theme = "PaperMod"
+
+[params]
+description = "Offensive Security, Vulnerability Research, and Threat Analysis"
+defaultTheme = "dark"
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+
+[params.homeInfoParams]
+Title = "SECORYX"
+Content = "Offensive Security | Vulnerability Research | Threat Analysis"
+
+[[menu.main]]
+name = "Research"
+url = "/research/"
+weight = 10
+
+[[menu.main]]
+name = "Writeups"
+url = "/writeups/"
+weight = 20
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 30
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 40
